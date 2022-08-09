@@ -1,0 +1,91 @@
+/*@import url(''font/SolaimanLipi.css);
+
+	font-family: 'SolaimanLipi',sans-serif; 
+*/
+/*faster bangla font*/
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+	margin: 0px;
+	font-family: 'Lora',"Lato",sans-serif;
+
+}
+.bangla{
+	font-family: 'SolaimanLipi',sans-serif;
+
+}
+.main_class{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.upper_row{
+	height: 100px;
+	background-color: pink;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.left_side{
+	display: flex;
+}
+
+.different_page{
+	font-size: 24px;
+	margin-right: 20px;
+	height: 30px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+.different_page a{
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+.different_page:hover{
+	border-bottom-color: black;
+}
+.different_page a:hover{
+	color: black;
+}
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+}
+.items{
+	position: relative;	
+}
+.item_background{
+	height: 250px;
+	width: 100%;
+	border: 5px solid green;
+	box-sizing: border-box;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.items:hover .item_background{
+	transition: filter 2s;
+	border-color:red;
+	filter: brightness(30%);
+}
+.contents{
+	position:absolute;
+	top: 0;
+	left: 0;
+	height:250px;
+	width: 100%;
+	padding: 75px;
+	box-sizing: border-box;
+	font-size: 36px;
+	text-align: center;
+	color: transparent;
+}
+
+.items:hover .contents{
+	color: white;
+}
